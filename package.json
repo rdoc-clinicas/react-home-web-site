@@ -1,0 +1,31 @@
+{
+    "name": "corf",
+    "version": "1.2.0",
+    "description": "Corf - React Next Medical Health Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next export",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "next": "^10.2.0",
+        "nodemailer": "^6.6.0",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.4",
+        "react-animate-on-scroll": "^2.1.5",
+        "react-datepicker": "^3.8.0",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^6.15.7",
+        "react-modal-video": "^1.2.6",
+        "react-owl-carousel3": "^2.2.5",
+        "sass": "^1.32.12",
+        "sweetalert2": "^10.16.6",
+        "sweetalert2-react-content": "^3.3.2"
+    }
+}
