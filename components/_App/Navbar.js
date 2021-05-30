@@ -284,7 +284,12 @@ const Navbar = () => {
                                             <div className="subscribe">
                                                 <Link href="/#">
                                                     <a className="default-btn">
-                                                        Get A Quote
+                                                        Quiero registrarme
+                                                    </a>
+                                                </Link>
+                                                <Link href="/#">
+                                                    <a className="default-btn ml-30">
+                                                        Mi Tech Medical
                                                     </a>
                                                 </Link>
                                             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TopHeader = () => {
-    return (      
+    return (
         <div className="top-header-area">
             <div className="container">
                 <div className="row align-items-center">
@@ -9,18 +9,18 @@ const TopHeader = () => {
                         <ul className="header-content-left">
                             <li>
                                 <i className="bx bx-time"></i>
-                                Mon-Fri 9am-5pm
+                                Lunes a Sábado 9am-8pm
                             </li>
                             <li>
-                                <a href="tel:+822456974">
+                                <a href="tel:+5491158256997">
                                     <i className="bx bx-phone-call"></i>
-                                    Call Us: +821-456-241
+                                    Llámenos: +5491158256997
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:hello@info.com">
+                                <a href="mailto:info@tech-medical.ar">
                                     <i className="bx bxs-paper-plane"></i>
-                                    Email: hello@info.com
+                                    Email: info@tech-medical.ar
                                 </a>
                             </li>
                         </ul>
