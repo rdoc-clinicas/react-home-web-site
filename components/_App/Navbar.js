@@ -20,16 +20,16 @@ const Navbar = () => {
         });
         window.scrollTo(0, 0);
     })
- 
+
     const classOne = menu ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = menu ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
     return (
         <>
             <header className="header-area fixed-top">
-                
+
                 <TopHeader />
-                
+
                 <div className="nav-area">
                     <div id="navbar" className="navbar-area">
                         <div className="main-nav">
@@ -41,13 +41,13 @@ const Navbar = () => {
                                         </a>
                                     </Link>
 
-                                    <button 
-                                        onClick={toggleNavbar} 
+                                    <button
+                                        onClick={toggleNavbar}
                                         className={classTwo}
-                                        type="button" 
-                                        data-toggle="collapse" 
-                                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                        aria-expanded="false" 
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false"
                                         aria-label="Toggle navigation"
                                     >
                                         <span className="icon-bar top-bar"></span>
@@ -67,49 +67,7 @@ const Navbar = () => {
                                                 <ul className="dropdown-menu">
                                                     <li className="nav-item">
                                                         <Link href="/" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 1 (Emergency Medical Clinic)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-2" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 2 (Covid-19 Treatment Clinic)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-3" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 3 (Covid-19 Test Center)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-4" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 4 (Vaccination Center/Clinic)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-5" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 5 (Doctors Directory Listing)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-6" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 6 (Health Charity Event)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-7" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 7 (Medical Research)</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/index-8" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Home 8 (Dental Clinic)</a>
+                                                            <a onClick={toggleNavbar} className="nav-link">Home (Tech Medical)</a>
                                                         </Link>
                                                     </li>
                                                 </ul>
@@ -120,7 +78,7 @@ const Navbar = () => {
                                                     <a onClick={toggleNavbar} className="nav-link">About</a>
                                                 </Link>
                                             </li>
-        
+
                                             <li className="nav-item">
                                                 <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
@@ -158,7 +116,7 @@ const Navbar = () => {
                                                             <a onClick={toggleNavbar} className="nav-link">FAQs</a>
                                                         </Link>
                                                     </li>
-   
+
                                                     <li className="nav-item">
                                                         <Link href="/#">
                                                             <a onClick={e => e.preventDefault()} className="nav-link">
@@ -171,19 +129,19 @@ const Navbar = () => {
                                                                 <Link href="/sign-in" activeClassName="active">
                                                                     <a onClick={toggleNavbar} className="nav-link">Sign In</a>
                                                                 </Link>
-                                                            </li> 
+                                                            </li>
 
                                                             <li className="nav-item">
                                                                 <Link href="/sign-up" activeClassName="active">
                                                                     <a onClick={toggleNavbar} className="nav-link">Sign Up</a>
                                                                 </Link>
-                                                            </li> 
+                                                            </li>
 
                                                             <li className="nav-item">
                                                                 <Link href="/recover-password" activeClassName="active">
                                                                     <a onClick={toggleNavbar} className="nav-link">Recover Password</a>
                                                                 </Link>
-                                                            </li> 
+                                                            </li>
                                                         </ul>
                                                     </li>
 
@@ -212,7 +170,7 @@ const Navbar = () => {
                                                     </li>
                                                 </ul>
                                             </li>
-        
+
                                             <li className="nav-item">
                                                 <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
@@ -246,7 +204,7 @@ const Navbar = () => {
                                                     </li>
                                                 </ul>
                                             </li>
-                                    
+
                                             <li className="nav-item">
                                                 <Link href="/#">
                                                     <a onClick={e => e.preventDefault()} className="nav-link">
@@ -272,7 +230,7 @@ const Navbar = () => {
                                                             <a onClick={toggleNavbar} className="nav-link">Doctors Style Three</a>
                                                         </Link>
                                                     </li>
- 
+
                                                     <li className="nav-item">
                                                         <Link href="/doctor-details" activeClassName="active">
                                                             <a onClick={toggleNavbar} className="nav-link">Doctors Details</a>
@@ -306,7 +264,7 @@ const Navbar = () => {
                                                             <a onClick={toggleNavbar} className="nav-link">Blog Right Sidebar</a>
                                                         </Link>
                                                     </li>
- 
+
                                                     <li className="nav-item">
                                                         <Link href="/blog-details" activeClassName="active">
                                                             <a onClick={toggleNavbar} className="nav-link">Blog Details</a>
@@ -321,7 +279,7 @@ const Navbar = () => {
                                                 </Link>
                                             </li>
                                         </ul>
-        
+
                                         <div className="others-option">
                                             <div className="subscribe">
                                                 <Link href="/#">
