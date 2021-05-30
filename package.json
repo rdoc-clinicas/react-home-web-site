@@ -1,18 +1,20 @@
 {
-    "name": "corf",
-    "version": "1.2.0",
-    "description": "Corf - React Next Medical Health Template",
+    "name": "tech-medical-web-page",
+    "version": "0.0.0",
+    "description": "Tech Medical - Medicina Moderna",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "export": "next export",
-        "start": "next start"
+        "start": "next start",
+        "lint": "node ./node_modules/.bin/eslint './src/**'",
+        "lint:fix": "node ./node_modules/.bin/eslint --fix './src/**'"
     },
-    "author": "EnvyTheme.com",
+    "author": "TechMedical",
     "license": "ISC",
     "dependencies": {
-        "axios": "^0.20.0",
+        "axios": "^0.21.1",
         "next": "^10.2.0",
         "nodemailer": "^6.6.0",
         "nodemailer-sendgrid-transport": "^0.2.0",
@@ -27,5 +29,9 @@
         "sass": "^1.32.12",
         "sweetalert2": "^10.16.6",
         "sweetalert2-react-content": "^3.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.27.0",
+        "eslint-plugin-react": "^7.24.0"
     }
 }
